@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70F51F9F1950EC7B003B21FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51F9E1950EC7B003B21FC /* Foundation.framework */; };
+		70F51FA11950EC7B003B21FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FA01950EC7B003B21FC /* CoreGraphics.framework */; };
+		70F51FA31950EC7B003B21FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FA21950EC7B003B21FC /* UIKit.framework */; };
+		70F51FA91950EC7B003B21FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70F51FA71950EC7B003B21FC /* InfoPlist.strings */; };
+		70F51FAB1950EC7B003B21FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F51FAA1950EC7B003B21FC /* main.m */; };
+		70F51FAF1950EC7C003B21FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F51FAE1950EC7C003B21FC /* AppDelegate.m */; };
+		70F51FB21950EC7C003B21FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F51FB01950EC7C003B21FC /* Main.storyboard */; };
+		70F51FB51950EC7C003B21FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F51FB41950EC7C003B21FC /* ViewController.m */; };
+		70F51FB71950EC7C003B21FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F51FB61950EC7C003B21FC /* Images.xcassets */; };
+		70F51FBE1950EC7C003B21FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FBD1950EC7C003B21FC /* XCTest.framework */; };
+		70F51FBF1950EC7C003B21FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51F9E1950EC7B003B21FC /* Foundation.framework */; };
+		70F51FC01950EC7C003B21FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FA21950EC7B003B21FC /* UIKit.framework */; };
+		70F51FC81950EC7C003B21FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70F51FC61950EC7C003B21FC /* InfoPlist.strings */; };
+		70F51FCA1950EC7C003B21FC /* ForsakenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F51FC91950EC7C003B21FC /* ForsakenTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70F51FC11950EC7C003B21FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70F51F931950EC7B003B21FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70F51F9A1950EC7B003B21FC;
+			remoteInfo = Forsaken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70F51F9B1950EC7B003B21FC /* Forsaken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forsaken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F51F9E1950EC7B003B21FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		70F51FA01950EC7B003B21FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		70F51FA21950EC7B003B21FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		70F51FA61950EC7B003B21FC /* Forsaken-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Forsaken-Info.plist"; sourceTree = "<group>"; };
+		70F51FA81950EC7B003B21FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70F51FAA1950EC7B003B21FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70F51FAC1950EC7B003B21FC /* Forsaken-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Forsaken-Prefix.pch"; sourceTree = "<group>"; };
+		70F51FAD1950EC7C003B21FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70F51FAE1950EC7C003B21FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70F51FB11950EC7C003B21FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70F51FB31950EC7C003B21FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70F51FB41950EC7C003B21FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70F51FB61950EC7C003B21FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70F51FBC1950EC7C003B21FC /* ForsakenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForsakenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70F51FBD1950EC7C003B21FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		70F51FC51950EC7C003B21FC /* ForsakenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForsakenTests-Info.plist"; sourceTree = "<group>"; };
+		70F51FC71950EC7C003B21FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		70F51FC91950EC7C003B21FC /* ForsakenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForsakenTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70F51F981950EC7B003B21FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F51FA11950EC7B003B21FC /* CoreGraphics.framework in Frameworks */,
+				70F51FA31950EC7B003B21FC /* UIKit.framework in Frameworks */,
+				70F51F9F1950EC7B003B21FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F51FB91950EC7C003B21FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F51FBE1950EC7C003B21FC /* XCTest.framework in Frameworks */,
+				70F51FC01950EC7C003B21FC /* UIKit.framework in Frameworks */,
+				70F51FBF1950EC7C003B21FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70F51F921950EC7B003B21FC = {
+			isa = PBXGroup;
+			children = (
+				70F51FA41950EC7B003B21FC /* Forsaken */,
+				70F51FC31950EC7C003B21FC /* ForsakenTests */,
+				70F51F9D1950EC7B003B21FC /* Frameworks */,
+				70F51F9C1950EC7B003B21FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70F51F9C1950EC7B003B21FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70F51F9B1950EC7B003B21FC /* Forsaken.app */,
+				70F51FBC1950EC7C003B21FC /* ForsakenTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70F51F9D1950EC7B003B21FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70F51F9E1950EC7B003B21FC /* Foundation.framework */,
+				70F51FA01950EC7B003B21FC /* CoreGraphics.framework */,
+				70F51FA21950EC7B003B21FC /* UIKit.framework */,
+				70F51FBD1950EC7C003B21FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70F51FA41950EC7B003B21FC /* Forsaken */ = {
+			isa = PBXGroup;
+			children = (
+				70F51FAD1950EC7C003B21FC /* AppDelegate.h */,
+				70F51FAE1950EC7C003B21FC /* AppDelegate.m */,
+				70F51FB01950EC7C003B21FC /* Main.storyboard */,
+				70F51FB31950EC7C003B21FC /* ViewController.h */,
+				70F51FB41950EC7C003B21FC /* ViewController.m */,
+				70F51FB61950EC7C003B21FC /* Images.xcassets */,
+				70F51FA51950EC7B003B21FC /* Supporting Files */,
+			);
+			path = Forsaken;
+			sourceTree = "<group>";
+		};
+		70F51FA51950EC7B003B21FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70F51FA61950EC7B003B21FC /* Forsaken-Info.plist */,
+				70F51FA71950EC7B003B21FC /* InfoPlist.strings */,
+				70F51FAA1950EC7B003B21FC /* main.m */,
+				70F51FAC1950EC7B003B21FC /* Forsaken-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70F51FC31950EC7C003B21FC /* ForsakenTests */ = {
+			isa = PBXGroup;
+			children = (
+				70F51FC91950EC7C003B21FC /* ForsakenTests.m */,
+				70F51FC41950EC7C003B21FC /* Supporting Files */,
+			);
+			path = ForsakenTests;
+			sourceTree = "<group>";
+		};
+		70F51FC41950EC7C003B21FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70F51FC51950EC7C003B21FC /* ForsakenTests-Info.plist */,
+				70F51FC61950EC7C003B21FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70F51F9A1950EC7B003B21FC /* Forsaken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F51FCD1950EC7C003B21FC /* Build configuration list for PBXNativeTarget "Forsaken" */;
+			buildPhases = (
+				70F51F971950EC7B003B21FC /* Sources */,
+				70F51F981950EC7B003B21FC /* Frameworks */,
+				70F51F991950EC7B003B21FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Forsaken;
+			productName = Forsaken;
+			productReference = 70F51F9B1950EC7B003B21FC /* Forsaken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70F51FBB1950EC7C003B21FC /* ForsakenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70F51FD01950EC7C003B21FC /* Build configuration list for PBXNativeTarget "ForsakenTests" */;
+			buildPhases = (
+				70F51FB81950EC7C003B21FC /* Sources */,
+				70F51FB91950EC7C003B21FC /* Frameworks */,
+				70F51FBA1950EC7C003B21FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70F51FC21950EC7C003B21FC /* PBXTargetDependency */,
+			);
+			name = ForsakenTests;
+			productName = ForsakenTests;
+			productReference = 70F51FBC1950EC7C003B21FC /* ForsakenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70F51F931950EC7B003B21FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Shedelbower Inc";
+				TargetAttributes = {
+					70F51FBB1950EC7C003B21FC = {
+						TestTargetID = 70F51F9A1950EC7B003B21FC;
+					};
+				};
+			};
+			buildConfigurationList = 70F51F961950EC7B003B21FC /* Build configuration list for PBXProject "Forsaken" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70F51F921950EC7B003B21FC;
+			productRefGroup = 70F51F9C1950EC7B003B21FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70F51F9A1950EC7B003B21FC /* Forsaken */,
+				70F51FBB1950EC7C003B21FC /* ForsakenTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F51F991950EC7B003B21FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F51FB71950EC7C003B21FC /* Images.xcassets in Resources */,
+				70F51FA91950EC7B003B21FC /* InfoPlist.strings in Resources */,
+				70F51FB21950EC7C003B21FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F51FBA1950EC7C003B21FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F51FC81950EC7C003B21FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70F51F971950EC7B003B21FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F51FB51950EC7C003B21FC /* ViewController.m in Sources */,
+				70F51FAF1950EC7C003B21FC /* AppDelegate.m in Sources */,
+				70F51FAB1950EC7B003B21FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70F51FB81950EC7C003B21FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F51FCA1950EC7C003B21FC /* ForsakenTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70F51FC21950EC7C003B21FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70F51F9A1950EC7B003B21FC /* Forsaken */;
+			targetProxy = 70F51FC11950EC7C003B21FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70F51FA71950EC7B003B21FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F51FA81950EC7B003B21FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		70F51FB01950EC7C003B21FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F51FB11950EC7C003B21FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70F51FC61950EC7C003B21FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70F51FC71950EC7C003B21FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70F51FCB1950EC7C003B21FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		70F51FCC1950EC7C003B21FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70F51FCE1950EC7C003B21FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forsaken/Forsaken-Prefix.pch";
+				INFOPLIST_FILE = "Forsaken/Forsaken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		70F51FCF1950EC7C003B21FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forsaken/Forsaken-Prefix.pch";
+				INFOPLIST_FILE = "Forsaken/Forsaken-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		70F51FD11950EC7C003B21FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forsaken.app/Forsaken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forsaken/Forsaken-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ForsakenTests/ForsakenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		70F51FD21950EC7C003B21FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Forsaken.app/Forsaken";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Forsaken/Forsaken-Prefix.pch";
+				INFOPLIST_FILE = "ForsakenTests/ForsakenTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70F51F961950EC7B003B21FC /* Build configuration list for PBXProject "Forsaken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F51FCB1950EC7C003B21FC /* Debug */,
+				70F51FCC1950EC7C003B21FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70F51FCD1950EC7C003B21FC /* Build configuration list for PBXNativeTarget "Forsaken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F51FCE1950EC7C003B21FC /* Debug */,
+				70F51FCF1950EC7C003B21FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70F51FD01950EC7C003B21FC /* Build configuration list for PBXNativeTarget "ForsakenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70F51FD11950EC7C003B21FC /* Debug */,
+				70F51FD21950EC7C003B21FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70F51F931950EC7B003B21FC /* Project object */;
+}
