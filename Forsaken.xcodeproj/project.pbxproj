@@ -7,6 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7021793719562A1500AC6ACC /* KitchenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021793619562A1500AC6ACC /* KitchenViewController.m */; };
+		7021793C1957390700AC6ACC /* GarageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021793B1957390700AC6ACC /* GarageViewController.m */; };
+		7021794119573FE000AC6ACC /* ToolRackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021794019573FE000AC6ACC /* ToolRackViewController.m */; };
+		702179481957411000AC6ACC /* WeaponsCabinetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702179471957411000AC6ACC /* WeaponsCabinetViewController.m */; };
+		7021794D195773EF00AC6ACC /* BuildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021794C195773EF00AC6ACC /* BuildViewController.m */; };
+		70217950195780F600AC6ACC /* BackyardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021794F195780F600AC6ACC /* BackyardViewController.m */; };
+		7021795B1958652600AC6ACC /* LivingRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7021795A1958652600AC6ACC /* LivingRoomViewController.m */; };
+		702179681958A0A500AC6ACC /* SupplyRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702179671958A0A500AC6ACC /* SupplyRunViewController.m */; };
+		7026462E1960616A00E66EC8 /* BackyardFence.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026462D1960616A00E66EC8 /* BackyardFence.png */; };
+		702646301960617600E66EC8 /* BackyardFenceBarbed.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026462F1960617600E66EC8 /* BackyardFenceBarbed.png */; };
+		702646321960618D00E66EC8 /* GarageDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646311960618D00E66EC8 /* GarageDark.png */; };
+		70264634196061B500E66EC8 /* GarageLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264633196061B500E66EC8 /* GarageLight.png */; };
+		70264636196061C000E66EC8 /* KitchenDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264635196061C000E66EC8 /* KitchenDark.png */; };
+		70264638196061C600E66EC8 /* KitchenLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264637196061C600E66EC8 /* KitchenLight.png */; };
+		70264641196061EB00E66EC8 /* ShelterDarkBoarded.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026463D196061EB00E66EC8 /* ShelterDarkBoarded.png */; };
+		70264642196061EB00E66EC8 /* ShelterDarkUnboarded.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026463E196061EB00E66EC8 /* ShelterDarkUnboarded.png */; };
+		70264643196061EB00E66EC8 /* ShelterLightBoarded.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026463F196061EB00E66EC8 /* ShelterLightBoarded.png */; };
+		70264644196061EB00E66EC8 /* ShelterLightUnboarded.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264640196061EB00E66EC8 /* ShelterLightUnboarded.png */; };
+		70264646196061F400E66EC8 /* StoreRoomDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264645196061F400E66EC8 /* StoreRoomDark.png */; };
+		70264648196061F900E66EC8 /* StoreRoomLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264647196061F900E66EC8 /* StoreRoomLight.png */; };
+		7026464D1960620300E66EC8 /* SupplyRunDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646491960620300E66EC8 /* SupplyRunDark.png */; };
+		7026464E1960620300E66EC8 /* SupplyRunLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026464A1960620300E66EC8 /* SupplyRunLight.png */; };
+		7026464F1960620300E66EC8 /* WeaponsCabinetDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026464B1960620300E66EC8 /* WeaponsCabinetDark.png */; };
+		702646501960620300E66EC8 /* WeaponsCabinetLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026464C1960620300E66EC8 /* WeaponsCabinetLight.png */; };
+		70264653196062AB00E66EC8 /* ToolRackDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264651196062AB00E66EC8 /* ToolRackDark.png */; };
+		70264654196062AB00E66EC8 /* ToolRackLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264652196062AB00E66EC8 /* ToolRackLight.png */; };
+		702646571960635700E66EC8 /* BuildDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646551960635700E66EC8 /* BuildDark.png */; };
+		702646581960635700E66EC8 /* BuildLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646561960635700E66EC8 /* BuildLight.png */; };
+		702646661961FD7400E66EC8 /* Bicycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646651961FD7400E66EC8 /* Bicycle.png */; };
+		702646681961FD7E00E66EC8 /* Motorcycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646671961FD7E00E66EC8 /* Motorcycle.png */; };
+		7026466A1961FD8900E66EC8 /* Jeep.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646691961FD8900E66EC8 /* Jeep.png */; };
+		7026466C1961FD9500E66EC8 /* ElectricCar.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026466B1961FD9500E66EC8 /* ElectricCar.png */; };
+		7026466E1961FD9D00E66EC8 /* Hybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026466D1961FD9D00E66EC8 /* Hybrid.png */; };
+		702646701961FDAD00E66EC8 /* Truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 7026466F1961FDAD00E66EC8 /* Truck.png */; };
+		702646721961FFC600E66EC8 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 702646711961FFC600E66EC8 /* Menu.png */; };
+		70264674196200FE00E66EC8 /* ForsakenWreckage.png in Resources */ = {isa = PBXBuildFile; fileRef = 70264673196200FE00E66EC8 /* ForsakenWreckage.png */; };
+		702DA6A5197193C400A5554C /* ForsakenLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 702DA6A4197193C400A5554C /* ForsakenLogo.png */; };
+		703530E51959F77700052798 /* Workers.m in Sources */ = {isa = PBXBuildFile; fileRef = 703530E41959F77700052798 /* Workers.m */; };
+		70353132195E9F0600052798 /* DeathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70353131195E9F0600052798 /* DeathViewController.m */; };
+		706FEC481964A8FD003C1F45 /* LivingRoomDark.png in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC461964A8FD003C1F45 /* LivingRoomDark.png */; };
+		706FEC491964A8FD003C1F45 /* LivingRoomLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC471964A8FD003C1F45 /* LivingRoomLight.png */; };
+		706FEC4B1964E882003C1F45 /* StreetRunLarge1.png in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC4A1964E882003C1F45 /* StreetRunLarge1.png */; };
+		706FEC511964F3A8003C1F45 /* StreetRun1.png in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC501964F3A8003C1F45 /* StreetRun1.png */; };
+		706FEC531964F4A0003C1F45 /* StreetRun1Filler.png in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC521964F4A0003C1F45 /* StreetRun1Filler.png */; };
+		706FEC551964F80C003C1F45 /* ForsakenPlayerTakingDamage.png in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC541964F80C003C1F45 /* ForsakenPlayerTakingDamage.png */; };
+		706FEC571964F92F003C1F45 /* LightGraySquare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 706FEC561964F92F003C1F45 /* LightGraySquare.jpg */; };
 		70F51F9F1950EC7B003B21FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51F9E1950EC7B003B21FC /* Foundation.framework */; };
 		70F51FA11950EC7B003B21FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FA01950EC7B003B21FC /* CoreGraphics.framework */; };
 		70F51FA31950EC7B003B21FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FA21950EC7B003B21FC /* UIKit.framework */; };
@@ -21,6 +67,19 @@
 		70F51FC01950EC7C003B21FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70F51FA21950EC7B003B21FC /* UIKit.framework */; };
 		70F51FC81950EC7C003B21FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 70F51FC61950EC7C003B21FC /* InfoPlist.strings */; };
 		70F51FCA1950EC7C003B21FC /* ForsakenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F51FC91950EC7C003B21FC /* ForsakenTests.m */; };
+		70F51FD81950F882003B21FC /* ForsakenBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70F51FD71950F882003B21FC /* ForsakenBackground.jpg */; };
+		70F51FDB19510359003B21FC /* WreckageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F51FDA19510359003B21FC /* WreckageViewController.m */; };
+		70F520241951CC0C003B21FC /* AllSupplies.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F520231951CC0C003B21FC /* AllSupplies.m */; };
+		70F5203419524085003B21FC /* SupplyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5203319524085003B21FC /* SupplyViewController.m */; };
+		70F5203719524BA6003B21FC /* ProgressViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5203619524BA6003B21FC /* ProgressViews.m */; };
+		70F5208119533CA7003B21FC /* StreetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5208019533CA7003B21FC /* StreetViewController.m */; };
+		70F520891953576A003B21FC /* ForsakenZombie.png in Resources */ = {isa = PBXBuildFile; fileRef = 70F520881953576A003B21FC /* ForsakenZombie.png */; };
+		70F5208B1953588D003B21FC /* ForsakenPlayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 70F5208A1953588D003B21FC /* ForsakenPlayer.png */; };
+		70F5208E19536117003B21FC /* TextBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5208D19536117003B21FC /* TextBox.m */; };
+		70F520901953858E003B21FC /* TextBoxVeil.png in Resources */ = {isa = PBXBuildFile; fileRef = 70F5208F1953858E003B21FC /* TextBoxVeil.png */; };
+		70F5209219539585003B21FC /* ForsakenPlayerZombie.png in Resources */ = {isa = PBXBuildFile; fileRef = 70F5209119539585003B21FC /* ForsakenPlayerZombie.png */; };
+		70F520961953975C003B21FC /* ForsakenStreetRun1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 70F520951953975C003B21FC /* ForsakenStreetRun1.jpg */; };
+		70F5209B195493C9003B21FC /* ShelterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F5209A195493C9003B21FC /* ShelterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +93,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7021793519562A1500AC6ACC /* KitchenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KitchenViewController.h; sourceTree = "<group>"; };
+		7021793619562A1500AC6ACC /* KitchenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KitchenViewController.m; sourceTree = "<group>"; };
+		7021793A1957390700AC6ACC /* GarageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GarageViewController.h; sourceTree = "<group>"; };
+		7021793B1957390700AC6ACC /* GarageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GarageViewController.m; sourceTree = "<group>"; };
+		7021793F19573FE000AC6ACC /* ToolRackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolRackViewController.h; sourceTree = "<group>"; };
+		7021794019573FE000AC6ACC /* ToolRackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolRackViewController.m; sourceTree = "<group>"; };
+		702179461957411000AC6ACC /* WeaponsCabinetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeaponsCabinetViewController.h; sourceTree = "<group>"; };
+		702179471957411000AC6ACC /* WeaponsCabinetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeaponsCabinetViewController.m; sourceTree = "<group>"; };
+		7021794B195773EF00AC6ACC /* BuildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildViewController.h; sourceTree = "<group>"; };
+		7021794C195773EF00AC6ACC /* BuildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildViewController.m; sourceTree = "<group>"; };
+		7021794E195780F600AC6ACC /* BackyardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackyardViewController.h; sourceTree = "<group>"; };
+		7021794F195780F600AC6ACC /* BackyardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackyardViewController.m; sourceTree = "<group>"; };
+		702179591958652500AC6ACC /* LivingRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LivingRoomViewController.h; sourceTree = "<group>"; };
+		7021795A1958652600AC6ACC /* LivingRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LivingRoomViewController.m; sourceTree = "<group>"; };
+		702179661958A0A500AC6ACC /* SupplyRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupplyRunViewController.h; sourceTree = "<group>"; };
+		702179671958A0A500AC6ACC /* SupplyRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplyRunViewController.m; sourceTree = "<group>"; };
+		7026462D1960616A00E66EC8 /* BackyardFence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackyardFence.png; sourceTree = "<group>"; };
+		7026462F1960617600E66EC8 /* BackyardFenceBarbed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackyardFenceBarbed.png; sourceTree = "<group>"; };
+		702646311960618D00E66EC8 /* GarageDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GarageDark.png; sourceTree = "<group>"; };
+		70264633196061B500E66EC8 /* GarageLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GarageLight.png; sourceTree = "<group>"; };
+		70264635196061C000E66EC8 /* KitchenDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KitchenDark.png; sourceTree = "<group>"; };
+		70264637196061C600E66EC8 /* KitchenLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KitchenLight.png; sourceTree = "<group>"; };
+		7026463D196061EB00E66EC8 /* ShelterDarkBoarded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShelterDarkBoarded.png; sourceTree = "<group>"; };
+		7026463E196061EB00E66EC8 /* ShelterDarkUnboarded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShelterDarkUnboarded.png; sourceTree = "<group>"; };
+		7026463F196061EB00E66EC8 /* ShelterLightBoarded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShelterLightBoarded.png; sourceTree = "<group>"; };
+		70264640196061EB00E66EC8 /* ShelterLightUnboarded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShelterLightUnboarded.png; sourceTree = "<group>"; };
+		70264645196061F400E66EC8 /* StoreRoomDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoreRoomDark.png; sourceTree = "<group>"; };
+		70264647196061F900E66EC8 /* StoreRoomLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StoreRoomLight.png; sourceTree = "<group>"; };
+		702646491960620300E66EC8 /* SupplyRunDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SupplyRunDark.png; sourceTree = "<group>"; };
+		7026464A1960620300E66EC8 /* SupplyRunLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SupplyRunLight.png; sourceTree = "<group>"; };
+		7026464B1960620300E66EC8 /* WeaponsCabinetDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeaponsCabinetDark.png; sourceTree = "<group>"; };
+		7026464C1960620300E66EC8 /* WeaponsCabinetLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeaponsCabinetLight.png; sourceTree = "<group>"; };
+		70264651196062AB00E66EC8 /* ToolRackDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolRackDark.png; sourceTree = "<group>"; };
+		70264652196062AB00E66EC8 /* ToolRackLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ToolRackLight.png; sourceTree = "<group>"; };
+		702646551960635700E66EC8 /* BuildDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuildDark.png; sourceTree = "<group>"; };
+		702646561960635700E66EC8 /* BuildLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuildLight.png; sourceTree = "<group>"; };
+		702646651961FD7400E66EC8 /* Bicycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bicycle.png; sourceTree = "<group>"; };
+		702646671961FD7E00E66EC8 /* Motorcycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Motorcycle.png; sourceTree = "<group>"; };
+		702646691961FD8900E66EC8 /* Jeep.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jeep.png; sourceTree = "<group>"; };
+		7026466B1961FD9500E66EC8 /* ElectricCar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ElectricCar.png; sourceTree = "<group>"; };
+		7026466D1961FD9D00E66EC8 /* Hybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hybrid.png; sourceTree = "<group>"; };
+		7026466F1961FDAD00E66EC8 /* Truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Truck.png; sourceTree = "<group>"; };
+		702646711961FFC600E66EC8 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		70264673196200FE00E66EC8 /* ForsakenWreckage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForsakenWreckage.png; sourceTree = "<group>"; };
+		702DA6A4197193C400A5554C /* ForsakenLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForsakenLogo.png; sourceTree = "<group>"; };
+		703530E31959F77700052798 /* Workers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workers.h; sourceTree = "<group>"; };
+		703530E41959F77700052798 /* Workers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workers.m; sourceTree = "<group>"; };
+		70353130195E9F0600052798 /* DeathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeathViewController.h; sourceTree = "<group>"; };
+		70353131195E9F0600052798 /* DeathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeathViewController.m; sourceTree = "<group>"; };
+		706FEC461964A8FD003C1F45 /* LivingRoomDark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LivingRoomDark.png; sourceTree = "<group>"; };
+		706FEC471964A8FD003C1F45 /* LivingRoomLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LivingRoomLight.png; sourceTree = "<group>"; };
+		706FEC4A1964E882003C1F45 /* StreetRunLarge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StreetRunLarge1.png; sourceTree = "<group>"; };
+		706FEC501964F3A8003C1F45 /* StreetRun1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StreetRun1.png; sourceTree = "<group>"; };
+		706FEC521964F4A0003C1F45 /* StreetRun1Filler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StreetRun1Filler.png; sourceTree = "<group>"; };
+		706FEC541964F80C003C1F45 /* ForsakenPlayerTakingDamage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForsakenPlayerTakingDamage.png; sourceTree = "<group>"; };
+		706FEC561964F92F003C1F45 /* LightGraySquare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LightGraySquare.jpg; sourceTree = "<group>"; };
 		70F51F9B1950EC7B003B21FC /* Forsaken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forsaken.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F51F9E1950EC7B003B21FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		70F51FA01950EC7B003B21FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +168,26 @@
 		70F51FC51950EC7C003B21FC /* ForsakenTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ForsakenTests-Info.plist"; sourceTree = "<group>"; };
 		70F51FC71950EC7C003B21FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		70F51FC91950EC7C003B21FC /* ForsakenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForsakenTests.m; sourceTree = "<group>"; };
+		70F51FD71950F882003B21FC /* ForsakenBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ForsakenBackground.jpg; sourceTree = "<group>"; };
+		70F51FD919510359003B21FC /* WreckageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WreckageViewController.h; sourceTree = "<group>"; };
+		70F51FDA19510359003B21FC /* WreckageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WreckageViewController.m; sourceTree = "<group>"; };
+		70F520221951CC0C003B21FC /* AllSupplies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllSupplies.h; sourceTree = "<group>"; };
+		70F520231951CC0C003B21FC /* AllSupplies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllSupplies.m; sourceTree = "<group>"; };
+		70F5203219524085003B21FC /* SupplyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupplyViewController.h; sourceTree = "<group>"; };
+		70F5203319524085003B21FC /* SupplyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SupplyViewController.m; sourceTree = "<group>"; };
+		70F5203519524BA6003B21FC /* ProgressViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViews.h; sourceTree = "<group>"; };
+		70F5203619524BA6003B21FC /* ProgressViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViews.m; sourceTree = "<group>"; };
+		70F5207F19533CA7003B21FC /* StreetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StreetViewController.h; sourceTree = "<group>"; };
+		70F5208019533CA7003B21FC /* StreetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StreetViewController.m; sourceTree = "<group>"; };
+		70F520881953576A003B21FC /* ForsakenZombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForsakenZombie.png; sourceTree = "<group>"; };
+		70F5208A1953588D003B21FC /* ForsakenPlayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForsakenPlayer.png; sourceTree = "<group>"; };
+		70F5208C19536117003B21FC /* TextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextBox.h; sourceTree = "<group>"; };
+		70F5208D19536117003B21FC /* TextBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextBox.m; sourceTree = "<group>"; };
+		70F5208F1953858E003B21FC /* TextBoxVeil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextBoxVeil.png; sourceTree = "<group>"; };
+		70F5209119539585003B21FC /* ForsakenPlayerZombie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForsakenPlayerZombie.png; sourceTree = "<group>"; };
+		70F520951953975C003B21FC /* ForsakenStreetRun1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ForsakenStreetRun1.jpg; sourceTree = "<group>"; };
+		70F52099195493C9003B21FC /* ShelterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShelterViewController.h; sourceTree = "<group>"; };
+		70F5209A195493C9003B21FC /* ShelterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShelterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +247,12 @@
 		70F51FA41950EC7B003B21FC /* Forsaken */ = {
 			isa = PBXGroup;
 			children = (
+				70F51FB61950EC7C003B21FC /* Images.xcassets */,
 				70F51FAD1950EC7C003B21FC /* AppDelegate.h */,
 				70F51FAE1950EC7C003B21FC /* AppDelegate.m */,
 				70F51FB01950EC7C003B21FC /* Main.storyboard */,
-				70F51FB31950EC7C003B21FC /* ViewController.h */,
-				70F51FB41950EC7C003B21FC /* ViewController.m */,
-				70F51FB61950EC7C003B21FC /* Images.xcassets */,
+				70F5209D195493EA003B21FC /* Accessable Info */,
+				70F5209C195493DB003B21FC /* ViewControllers */,
 				70F51FA51950EC7B003B21FC /* Supporting Files */,
 			);
 			path = Forsaken;
@@ -126,6 +261,48 @@
 		70F51FA51950EC7B003B21FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				702DA6A4197193C400A5554C /* ForsakenLogo.png */,
+				7026466F1961FDAD00E66EC8 /* Truck.png */,
+				7026466D1961FD9D00E66EC8 /* Hybrid.png */,
+				7026466B1961FD9500E66EC8 /* ElectricCar.png */,
+				702646691961FD8900E66EC8 /* Jeep.png */,
+				702646671961FD7E00E66EC8 /* Motorcycle.png */,
+				702646651961FD7400E66EC8 /* Bicycle.png */,
+				706FEC561964F92F003C1F45 /* LightGraySquare.jpg */,
+				702646551960635700E66EC8 /* BuildDark.png */,
+				702646561960635700E66EC8 /* BuildLight.png */,
+				70264651196062AB00E66EC8 /* ToolRackDark.png */,
+				70264652196062AB00E66EC8 /* ToolRackLight.png */,
+				702646491960620300E66EC8 /* SupplyRunDark.png */,
+				7026464A1960620300E66EC8 /* SupplyRunLight.png */,
+				7026464B1960620300E66EC8 /* WeaponsCabinetDark.png */,
+				7026464C1960620300E66EC8 /* WeaponsCabinetLight.png */,
+				70264647196061F900E66EC8 /* StoreRoomLight.png */,
+				70264645196061F400E66EC8 /* StoreRoomDark.png */,
+				706FEC4A1964E882003C1F45 /* StreetRunLarge1.png */,
+				7026463D196061EB00E66EC8 /* ShelterDarkBoarded.png */,
+				7026463E196061EB00E66EC8 /* ShelterDarkUnboarded.png */,
+				7026463F196061EB00E66EC8 /* ShelterLightBoarded.png */,
+				70264640196061EB00E66EC8 /* ShelterLightUnboarded.png */,
+				706FEC501964F3A8003C1F45 /* StreetRun1.png */,
+				706FEC521964F4A0003C1F45 /* StreetRun1Filler.png */,
+				706FEC541964F80C003C1F45 /* ForsakenPlayerTakingDamage.png */,
+				70264637196061C600E66EC8 /* KitchenLight.png */,
+				70264635196061C000E66EC8 /* KitchenDark.png */,
+				70264633196061B500E66EC8 /* GarageLight.png */,
+				702646311960618D00E66EC8 /* GarageDark.png */,
+				706FEC461964A8FD003C1F45 /* LivingRoomDark.png */,
+				706FEC471964A8FD003C1F45 /* LivingRoomLight.png */,
+				7026462F1960617600E66EC8 /* BackyardFenceBarbed.png */,
+				7026462D1960616A00E66EC8 /* BackyardFence.png */,
+				70F520951953975C003B21FC /* ForsakenStreetRun1.jpg */,
+				702646711961FFC600E66EC8 /* Menu.png */,
+				70264673196200FE00E66EC8 /* ForsakenWreckage.png */,
+				70F5208A1953588D003B21FC /* ForsakenPlayer.png */,
+				70F5208F1953858E003B21FC /* TextBoxVeil.png */,
+				70F520881953576A003B21FC /* ForsakenZombie.png */,
+				70F51FD71950F882003B21FC /* ForsakenBackground.jpg */,
+				70F5209119539585003B21FC /* ForsakenPlayerZombie.png */,
 				70F51FA61950EC7B003B21FC /* Forsaken-Info.plist */,
 				70F51FA71950EC7B003B21FC /* InfoPlist.strings */,
 				70F51FAA1950EC7B003B21FC /* main.m */,
@@ -150,6 +327,56 @@
 				70F51FC61950EC7C003B21FC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70F5209C195493DB003B21FC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				70F51FB31950EC7C003B21FC /* ViewController.h */,
+				70F51FB41950EC7C003B21FC /* ViewController.m */,
+				70F51FD919510359003B21FC /* WreckageViewController.h */,
+				70F51FDA19510359003B21FC /* WreckageViewController.m */,
+				70F5203219524085003B21FC /* SupplyViewController.h */,
+				70F5203319524085003B21FC /* SupplyViewController.m */,
+				70F5207F19533CA7003B21FC /* StreetViewController.h */,
+				70F5208019533CA7003B21FC /* StreetViewController.m */,
+				70F52099195493C9003B21FC /* ShelterViewController.h */,
+				70F5209A195493C9003B21FC /* ShelterViewController.m */,
+				7021794E195780F600AC6ACC /* BackyardViewController.h */,
+				7021794F195780F600AC6ACC /* BackyardViewController.m */,
+				7021793519562A1500AC6ACC /* KitchenViewController.h */,
+				7021793619562A1500AC6ACC /* KitchenViewController.m */,
+				7021793A1957390700AC6ACC /* GarageViewController.h */,
+				7021793B1957390700AC6ACC /* GarageViewController.m */,
+				7021793F19573FE000AC6ACC /* ToolRackViewController.h */,
+				7021794019573FE000AC6ACC /* ToolRackViewController.m */,
+				702179461957411000AC6ACC /* WeaponsCabinetViewController.h */,
+				702179471957411000AC6ACC /* WeaponsCabinetViewController.m */,
+				7021794B195773EF00AC6ACC /* BuildViewController.h */,
+				7021794C195773EF00AC6ACC /* BuildViewController.m */,
+				702179591958652500AC6ACC /* LivingRoomViewController.h */,
+				7021795A1958652600AC6ACC /* LivingRoomViewController.m */,
+				702179661958A0A500AC6ACC /* SupplyRunViewController.h */,
+				702179671958A0A500AC6ACC /* SupplyRunViewController.m */,
+				70353130195E9F0600052798 /* DeathViewController.h */,
+				70353131195E9F0600052798 /* DeathViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		70F5209D195493EA003B21FC /* Accessable Info */ = {
+			isa = PBXGroup;
+			children = (
+				70F520221951CC0C003B21FC /* AllSupplies.h */,
+				70F520231951CC0C003B21FC /* AllSupplies.m */,
+				70F5203519524BA6003B21FC /* ProgressViews.h */,
+				70F5203619524BA6003B21FC /* ProgressViews.m */,
+				70F5208C19536117003B21FC /* TextBox.h */,
+				70F5208D19536117003B21FC /* TextBox.m */,
+				703530E31959F77700052798 /* Workers.h */,
+				703530E41959F77700052798 /* Workers.m */,
+			);
+			name = "Accessable Info";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +426,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Shedelbower Inc";
 				TargetAttributes = {
+					70F51F9A1950EC7B003B21FC = {
+						DevelopmentTeam = 4QRWEG9236;
+					};
 					70F51FBB1950EC7C003B21FC = {
 						TestTargetID = 70F51F9A1950EC7B003B21FC;
 					};
@@ -228,8 +458,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702646701961FDAD00E66EC8 /* Truck.png in Resources */,
+				70264653196062AB00E66EC8 /* ToolRackDark.png in Resources */,
+				70264646196061F400E66EC8 /* StoreRoomDark.png in Resources */,
+				70F520891953576A003B21FC /* ForsakenZombie.png in Resources */,
+				706FEC571964F92F003C1F45 /* LightGraySquare.jpg in Resources */,
+				706FEC551964F80C003C1F45 /* ForsakenPlayerTakingDamage.png in Resources */,
+				7026464D1960620300E66EC8 /* SupplyRunDark.png in Resources */,
+				702646501960620300E66EC8 /* WeaponsCabinetLight.png in Resources */,
+				70F51FD81950F882003B21FC /* ForsakenBackground.jpg in Resources */,
+				7026464E1960620300E66EC8 /* SupplyRunLight.png in Resources */,
+				7026462E1960616A00E66EC8 /* BackyardFence.png in Resources */,
+				702646661961FD7400E66EC8 /* Bicycle.png in Resources */,
+				706FEC481964A8FD003C1F45 /* LivingRoomDark.png in Resources */,
 				70F51FB71950EC7C003B21FC /* Images.xcassets in Resources */,
+				706FEC531964F4A0003C1F45 /* StreetRun1Filler.png in Resources */,
+				702646321960618D00E66EC8 /* GarageDark.png in Resources */,
+				70264648196061F900E66EC8 /* StoreRoomLight.png in Resources */,
+				70F5208B1953588D003B21FC /* ForsakenPlayer.png in Resources */,
+				70F520961953975C003B21FC /* ForsakenStreetRun1.jpg in Resources */,
+				7026466E1961FD9D00E66EC8 /* Hybrid.png in Resources */,
+				70F5209219539585003B21FC /* ForsakenPlayerZombie.png in Resources */,
 				70F51FA91950EC7B003B21FC /* InfoPlist.strings in Resources */,
+				70264654196062AB00E66EC8 /* ToolRackLight.png in Resources */,
+				702646571960635700E66EC8 /* BuildDark.png in Resources */,
+				70264641196061EB00E66EC8 /* ShelterDarkBoarded.png in Resources */,
+				70264642196061EB00E66EC8 /* ShelterDarkUnboarded.png in Resources */,
+				70264636196061C000E66EC8 /* KitchenDark.png in Resources */,
+				7026466C1961FD9500E66EC8 /* ElectricCar.png in Resources */,
+				70264674196200FE00E66EC8 /* ForsakenWreckage.png in Resources */,
+				702646301960617600E66EC8 /* BackyardFenceBarbed.png in Resources */,
+				706FEC491964A8FD003C1F45 /* LivingRoomLight.png in Resources */,
+				70F520901953858E003B21FC /* TextBoxVeil.png in Resources */,
+				70264638196061C600E66EC8 /* KitchenLight.png in Resources */,
+				702DA6A5197193C400A5554C /* ForsakenLogo.png in Resources */,
+				7026466A1961FD8900E66EC8 /* Jeep.png in Resources */,
+				7026464F1960620300E66EC8 /* WeaponsCabinetDark.png in Resources */,
+				702646721961FFC600E66EC8 /* Menu.png in Resources */,
+				70264644196061EB00E66EC8 /* ShelterLightUnboarded.png in Resources */,
+				702646581960635700E66EC8 /* BuildLight.png in Resources */,
+				706FEC511964F3A8003C1F45 /* StreetRun1.png in Resources */,
+				70264634196061B500E66EC8 /* GarageLight.png in Resources */,
+				70264643196061EB00E66EC8 /* ShelterLightBoarded.png in Resources */,
+				702646681961FD7E00E66EC8 /* Motorcycle.png in Resources */,
+				706FEC4B1964E882003C1F45 /* StreetRunLarge1.png in Resources */,
 				70F51FB21950EC7C003B21FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,7 +523,24 @@
 			files = (
 				70F51FB51950EC7C003B21FC /* ViewController.m in Sources */,
 				70F51FAF1950EC7C003B21FC /* AppDelegate.m in Sources */,
+				70F520241951CC0C003B21FC /* AllSupplies.m in Sources */,
+				70217950195780F600AC6ACC /* BackyardViewController.m in Sources */,
+				703530E51959F77700052798 /* Workers.m in Sources */,
+				70353132195E9F0600052798 /* DeathViewController.m in Sources */,
 				70F51FAB1950EC7B003B21FC /* main.m in Sources */,
+				70F51FDB19510359003B21FC /* WreckageViewController.m in Sources */,
+				7021794119573FE000AC6ACC /* ToolRackViewController.m in Sources */,
+				7021795B1958652600AC6ACC /* LivingRoomViewController.m in Sources */,
+				70F5203719524BA6003B21FC /* ProgressViews.m in Sources */,
+				702179481957411000AC6ACC /* WeaponsCabinetViewController.m in Sources */,
+				7021794D195773EF00AC6ACC /* BuildViewController.m in Sources */,
+				70F5209B195493C9003B21FC /* ShelterViewController.m in Sources */,
+				7021793C1957390700AC6ACC /* GarageViewController.m in Sources */,
+				70F5208E19536117003B21FC /* TextBox.m in Sources */,
+				7021793719562A1500AC6ACC /* KitchenViewController.m in Sources */,
+				702179681958A0A500AC6ACC /* SupplyRunViewController.m in Sources */,
+				70F5203419524085003B21FC /* SupplyViewController.m in Sources */,
+				70F5208119533CA7003B21FC /* StreetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,10 +665,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forsaken/Forsaken-Prefix.pch";
 				INFOPLIST_FILE = "Forsaken/Forsaken-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -389,10 +681,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Forsaken/Forsaken-Prefix.pch";
 				INFOPLIST_FILE = "Forsaken/Forsaken-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -456,6 +751,7 @@
 				70F51FCF1950EC7C003B21FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		70F51FD01950EC7C003B21FC /* Build configuration list for PBXNativeTarget "ForsakenTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +760,7 @@
 				70F51FD21950EC7C003B21FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
