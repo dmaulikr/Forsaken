@@ -1,7 +1,8 @@
 # Forsaken
 
 ### About
-Forsaken is resource management iOS app in which you play as a survivor in a world desolated by a zombie outbreak. After your airplane crashes in an infested suburb, you must lead your crew to safety and try to rebuild using whatever supplies you can find.
+Forsaken is resource management iOS app in which you play as a survivor in a world desolated by a zombie outbreak. After your airplane crashes in an infested suburb, you must lead your crew to safety and try to rebuild using whatever supplies you can find.  
+This was my first attempt at creating an app for iOS and was made soley for learning purposes. It is currently incomplete. The game mechanics work, though I have yet to implement a progressive story for the player to move through.
 
 ### Details
 - **Framework**: UIKit  
@@ -19,7 +20,7 @@ The player may also leave their shelter to rescue other survivors, who will then
 During the road portion of the game, **tap and hold** the side of the screen in the direction you wish to move in order to avoid zombies.
 
 ### Media
-All images were created by myself (Alec Shedelbower) in Adobe Illustrator
+All images were created by myself (Alec Shedelbower) in Adobe Illustrator.
 
 ### Screenshots
 ![](https://cloud.githubusercontent.com/assets/10108668/8488354/c080acd8-20d7-11e5-8782-34ff774fe732.png)
