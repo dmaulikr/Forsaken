@@ -19,7 +19,7 @@ The player may also leave their shelter to rescue other survivors, who will then
 During the road portion of the game, **tap and hold** the side of the screen in the direction you wish to move in order to avoid zombies.
 
 ### Media
-All images were created by me in Adobe Illustrator
+All images were created by myself (Alec Shedelbower) in Adobe Illustrator
 
 ### Screenshots
 ![](https://cloud.githubusercontent.com/assets/10108668/8488354/c080acd8-20d7-11e5-8782-34ff774fe732.png)
